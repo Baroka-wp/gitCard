@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
+import Payement from './Payement';
 
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -29,6 +30,7 @@ const Navbar = () => {
                         <Link to="how-it-works" smooth={true} duration={500} className="cursor-pointer py-2 px-2 font-medium text-pink-900 hover:text-pink-600 transition duration-300">Comment ça marche</Link>
                         <Link to="create-list" smooth={true} duration={500} className="cursor-pointer py-2 px-2 font-medium text-pink-900 hover:text-pink-600 transition duration-300">Créer une liste</Link>
                         <a href="#" className="py-2 px-4 font-medium text-white bg-pink-500 rounded hover:bg-pink-600 transition duration-300">Connexion</a>
+                        <Payement />
                     </div>
                 </div>
             </div>
