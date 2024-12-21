@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
 import GiftListView from './pages/GiftListView';
 import Footer from './components/Footer';
+import AuthPage from './components/AuthPage';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/list/:uid" element={<GiftListView />} />
+            <Route path="/auth" element={<AuthPage />} />
+            
+
           </Routes>
         </main>
         <Footer />

@@ -5,6 +5,7 @@ import { FaApple, FaGoogle, FaTwitter } from 'react-icons/fa';
 import { Eye, EyeOff, ArrowLeft } from 'lucide-react';
 import backgroundImage from '../assets/bg.jpg';
 
+
 const AuthPage = () => {
     const [isLogin, setIsLogin] = useState(true);
     const [email, setEmail] = useState('');
