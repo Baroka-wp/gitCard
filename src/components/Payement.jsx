@@ -4,8 +4,8 @@ import { useKKiaPay } from 'kkiapay-react';
 
 function Payement() {
   const { openKkiapayWidget, addKkiapayListener, removeKkiapayListener } = useKKiaPay();
-
   function open() {
+    console.log("button clicked");
     openKkiapayWidget({
       amount: 4000,
       api_key: import.meta.env.VITE_KKIAPAY_API_KEY,
