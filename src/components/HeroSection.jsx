@@ -1,5 +1,8 @@
 import React from 'react';
 import giftIllustration from '../assets/bg.jpg';
+import HowItWorks from '../components/HowItWorks';
+import CreateList from '../components/CreateList';
+
 
 const HeroSection = () => {
     return (
@@ -29,12 +32,12 @@ const HeroSection = () => {
                     </p>
                     <div className="mt-10 sm:flex sm:justify-start">
                         <div className="rounded-md shadow">
-                            <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-600 hover:bg-pink-700 md:py-4 md:text-lg md:px-10 transition duration-300">
+                            <a href="#create-list" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-600 hover:bg-pink-700 md:py-4 md:text-lg md:px-10 transition duration-300">
                                 Créer ma liste
                             </a>
                         </div>
                         <div className="mt-3 sm:mt-0 sm:ml-3">
-                            <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-pink-700 bg-pink-100 hover:bg-pink-200 md:py-4 md:text-lg md:px-10 transition duration-300">
+                            <a href="#how-it-works" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-pink-700 bg-pink-100 hover:bg-pink-200 md:py-4 md:text-lg md:px-10 transition duration-300">
                                 Comment ça marche
                             </a>
                         </div>
