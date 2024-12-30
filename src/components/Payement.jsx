@@ -8,8 +8,7 @@ function Payement() {
     console.log("button clicked");
     openKkiapayWidget({
       amount: 4000,
-      api_key: import.meta.env.VITE_PUBLIC_KEY,
-      sandbox: true,
+      api_key: import.meta.env.VITE_KKIA_PAY_KEY,
       email: "adjoviyvette6@gmail.com",
       phone: "2290156784121",
     });
